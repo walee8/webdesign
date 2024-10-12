@@ -1,0 +1,38 @@
+body{
+	background:#282322;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+h1{
+	color: #cacaca;
+	text-align: center;
+	font-family: Hobo Std;
+}
+.wrap{
+	width: 400px;
+	margin: auto;
+	height: auto;
+	background:#463c3c;
+	padding: 15px; 
+}
+input[type=text]{
+	width: 100%;
+	padding: 10px;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 20px;
+	border-radius: 5px; 
+}
+input[type=button]{
+	width: 89px;
+	padding: 10px;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 5px;  
+}
+#del{
+	width: 100%;
+}
