@@ -1,0 +1,37 @@
+.home-page{
+    background-image: url(../img/office..jpeg);
+    background-size: cover;
+    height: 550px;
+    opacity: 4;
+      }
+    .icon{
+      margin-left: 100px;
+    }
+
+    /* Welcome to touriest  */
+    .Valuable_Feedback{
+      background-image: url(../img/yellow\ rastauraunt.jpg);
+      background-size: cover;
+      height: 650px;
+      background-attachment: fixed;
+    }
+    .box{
+      height: 400px;
+      width: 500px;
+      background-color: white;
+      margin-top: 100px;
+      margin-left: 140px;
+    }
+    .coHub{
+      color: blue;
+    }
+    .why_choose_us{
+      background-color: aliceblue;
+    }
+    .marpad{
+      margin-top: 100px;
+
+    }
+    .header{
+        background-attachment: fixed;
+    }

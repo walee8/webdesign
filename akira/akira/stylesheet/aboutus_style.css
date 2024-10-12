@@ -1,0 +1,138 @@
+
+.home-page{
+  background-image: url(../img/home-photo.avif);
+  background-color: rgba(0, 0, 0, 0.659);
+  /* opacity: 0.1; */
+  background-size: cover;
+  
+  height: 650px;
+
+  /* background-color: rgba(0, 0, 0, 0.581); */
+    }
+  .icon{
+      color: rgb(7, 173, 29);
+    }
+
+    /* Our_team_members */
+
+    #Our_team_members{
+
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background-color: rgb(229, 230, 229);
+
+    }
+
+    .members{
+      color:  rgb(72, 233, 51);
+    }
+    .background{
+      background-color: rgb(72, 233, 51);
+      
+    }
+    #market-analysis{
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    .margin{
+      margin-left: 130px;
+    }
+    .mr{
+      
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .btnm{
+      margin-left: 580px ;
+    }
+
+    #request_a_call_back{
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+    #LOGOTEXT{
+      margin-left: 200px;
+      background-color: rgb(220, 218, 215);
+    }
+    /* our_solutions */
+
+    /* #our_solutions{
+      background-image: url(../img/our_solutions.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .our_solutions{
+      background-color: rgba(0, 0, 0, 0.712);
+      
+    }
+
+
+    #what_the_says_about_us{
+
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background-color: rgb(229, 230, 229);
+
+    }
+
+    img :hover {
+      background-color: aqua;
+    } */
+
+
+
+    .box{
+      height: 80px;
+      width: 150px;
+      background-color: green;
+    }
+
+
+    /* .hover {
+      position: relative;
+      width: 50%;
+    }
+    
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    .container:hover .image {
+      opacity: 0.3;
+    }
+    
+    .container:hover .middle {
+      opacity: 1;
+    }
+    
+    .text {
+      background-color: #04AA6D;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    } */
+
+    /* <div class="middle">
+    <div class="text">John Doe</div>
+  </div> */
