@@ -1,0 +1,40 @@
+#hero{
+    background-image: url(../aboutimg/feedback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#team{
+    background-color: #f7f7f7;
+    
+}
+
+#bussiness{
+    
+    background-image: url(../aboutimg/feedback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opacity{
+    background-color: rgba(0, 0, 0, 0.815);
+    width: 100%;
+}
+
+#testimonals{
+    background-color: #f7f7f7;
+    
+}
+
+.copywrite{
+    background-color: #343434;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
