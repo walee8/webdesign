@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div>
+  <video muted loop id="myVideo">
+    <source src="img/herovid2.mp4" type="video/mp4">
+  </video>
+  
+    <section class="hero container-fluid">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light pb-5">
+            <div class="container">
+              <a class="navbar-brand fw-bold text-light" href="#">coHub.</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="d-flex">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="#exhibition">Exhibition</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="aboutus.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#news">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#price">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#faq">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Error</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </nav> -->
+
+          <header class="container-fluid bg-success">
+            <div class="container d-flex justify-content-between">
+                <div class="d-flex">
+                    <span class="border border-top-0 border-bottom-0 pt-3"><p class="px-2 text-light"><i class="fa-solid fa-clock me-2"></i>MON-FRI 09:00-17:00</p></span>
+                    <span class="border border-top-0 border-bottom-0 border-start-0 pt-3"><p class="px-2 text-light"><i class="fa-solid fa-phone me-2"></i>+880123456789</p></span>
+                </div>
+    
+                <div class="d-flex">
+                    <span class="border border-top-0 border-bottom-0 py-3 px-3"><a href="#" class="text-light"><i class="fa-brands fa-facebook-f"></i></a></span>
+                    <span class="border border-top-0 border-bottom-0 border-start-0 py-3 px-3"><a href="#" class="text-light"><i class="fa-brands fa-twitter"></i></a></span>
+                    <span class="py-3 px-3"><a href="#" class="link-light"><i class="fa-brands fa-behance"></i></a></span>
+                    <span class="border border-top-0 border-bottom-0 py-3 px-3"><a href="#" class="text-light"><i class="fa-brands fa-linkedin-in"></i></a></span>
+                </div>
+            </div>
+        </header>
+    
+        <!-- Starting Hero -->
+        <section class="container-fluid" id="hero">
+            <nav class="navbar navbar-expand-lg navbar-light pb-5">
+                <div class="container">
+                  <a class="navbar-brand fw-bold text-light" href="#">Finance Business</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="d-flex">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="aboutus.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="ourservices.html">Our Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="contactus.html">Contact US</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="blog.html">One Page</a>
+                      </li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+
+          <div class="container d-flex justify-content-center align-item-center my-5 flex-column text-center">
+            <h1 class="text-light fw-light">STAY PRODUCTIVE WITH <br> MODERN WORKSPACE</h1>
+            <p class="text-light">We have the world's largest network of workspaces and co-working spaces.</p>
+            
+            <div class="play-btn">
+                <a href="#" onclick="playVideo()" id="watch" class="py-3"><i class="fa fa-play-circle" style="color: #808080"></i></a> 
+            </div>
+            <p class="text-light"><span class="fw-bold">co.Hub in</span> 30 sec</p>
+          </div>
+    </section>
+  </div>
+
+    <section class="container my-5" id="exhibition">
+        <h3 class="text-center fw-light">Take a look at Our Exhibition</h3>
+        <p class="text-center text-secondary">We are the world's largest provider of flexible workspace solutions, with customers including <br> some of the most successful entrepreneurs.</p>
+        <p class="text-center fw-bold text-secondary">--------</p>
+
+        <div class="row mt-5">
+            <div class="col-md-6 col-lg-6">
+                <img src="img/exhibition1.jpg" style="height: 400px; width: 100%;" alt="">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <img src="img/exhibition2.jpg" style="height: 400px; width: 100%;" alt="">
+            </div>
+        </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6 col-lg-6">
+                    <img src="img/exhibition3.jpg" style="height: 400px; width: 100%;" alt="">
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <img src="img/exhibition4.jpg" style="height: 400px; width: 100%;" alt="">
+                </div>
+        </div>
+
+        <h3 class="fw-light text-center mt-5">Visit coHub for a day.</h3>
+        <div class="text-center">
+            <button type="button" class="btn btn-primary my-2 px-5 py-2">Schedule Your Day</button>
+            <p class="text-secondary">or check out <a href="#">pricing plans</a></p>
+        </div>
+    </section>
+
+    <section class="container-fluids my-5" id="choose">
+        <div class="container py-5">
+            <h3 class="text-center fw-light">Why Choose Us?</h3>
+            <p class="text-center text-secondary">We enable people and businesses to work where they want, when they want and how they <br> want.</p>
+            <p class="text-center fw-bold text-secondary">--------</p>
+
+            <div class="row">
+                <div class="col-md-4 col-lg-4">
+                    <div class="card text-center" style="width: 22rem;">
+                        <div class="card-body shadow bg-body rounded">
+                            <i class="fa-solid fa-network-wired fa-2xl py-5"></i>
+                          <h5 class="card-title">Largest Network</h5>
+                          <p class="card-text text-secondary pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit excepturi repellendus id saepe repellat nemo dicta, natus officiis hic fugit?</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4">
+                    <div class="card text-center" style="width: 22rem;">
+                        <div class="card-body shadow bg-body rounded">
+                            <i class="fa-solid fa-infinity fa-2xl py-5"></i>
+                          <h5 class="card-title">All Sizes and Budget</h5>
+                          <p class="card-text text-secondary pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit excepturi repellendus id saepe repellat nemo dicta, natus officiis hic fugit?</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4">
+                    <div class="card text-center" style="width: 22rem;">
+                        <div class="card-body shadow bg-body rounded">
+                            <i class="fa-regular fa-circle-question fa-2xl py-5"></i>
+                          <h5 class="card-title">Dedicated Account Manager</h5>
+                          <p class="card-text text-secondary pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit excepturi repellendus id saepe repellat nemo dicta, natus officiis hic fugit?</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-4 col-lg-4">
+                    <div class="card text-center" style="width: 22rem;">
+                        <div class="card-body shadow bg-body rounded">
+                            <i class="fa-regular fa-credit-card fa-2xl py-5"></i>
+                          <h5 class="card-title">Easy Payment</h5>
+                          <p class="card-text text-secondary pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit excepturi repellendus id saepe repellat nemo dicta, natus officiis hic fugit?</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4">
+                    <div class="card text-center" style="width: 22rem;">
+                        <div class="card-body shadow bg-body rounded">
+                            <i class="fa-solid fa-lock fa-2xl py-5"></i>
+                          <h5 class="card-title">Dedicated Locker</h5>
+                          <p class="card-text text-secondary pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit excepturi repellendus id saepe repellat nemo dicta, natus officiis hic fugit?</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-4 col-lg-4">
+                    <div class="card text-center" style="width: 22rem;">
+                        <div class="card-body shadow bg-body rounded">
+                            <i class="fa-solid fa-chart-area fa-2xl py-5"></i>
+                          <h5 class="card-title">Personalization</h5>
+                          <p class="card-text text-secondary pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit excepturi repellendus id saepe repellat nemo dicta, natus officiis hic fugit?</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5" id="news">
+        <h3 class="text-center fw-light">News, Updates and insights</h3>
+            <p class="text-center text-secondary">With a decade of insights and expertise, we're reimagining property so that you can focus on <br> your business.</p>
+            <p class="text-center fw-bold text-secondary">--------</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="card" style="width: 22rem;">
+                        <img src="img/news1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">How Four Tech Companies Use Property</h5>
+                          <p class="card-text text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, esse?</p>
+                          <a href="#" class="card-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="card" style="width: 22rem;">
+                        <img src="img/new2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">A Cancer Survivor Built A Wellness Platform</h5>
+                          <p class="card-text text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, esse?</p>
+                          <a href="#" class="card-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="card" style="width: 22rem;">
+                        <img src="img/news3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">The Difference Between Meeting and Connecting</h5>
+                          <p class="card-text text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, esse?</p>
+                          <a href="#" class="card-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button type="button" class="btn btn-primary px-5 py-2 my-5">View blog page</button>
+            </div>
+    </section>
+
+    <section class="container-fluid p-5" id="feedback">
+        <div class="container bg-light m-5 p-5 w-50">
+            <h4 class="text-secondary">Valuable Feedback</h4>
+            <p class="w-50">'We achieved a cost-savings project while achieving cultural transformation to collaborate better together. Our innovation lab brings ideas, skills and importantly, individuals together to enable innovation.'</p>
+            <p class="text-secondary fw-light">FRANCIS VAN PARYS, PRESIDENT AND CEO, GE HEALTHCARE KOREA</p>
+        </div>
+    </section>
+
+    <section class="container my-5 py-5" id="price">
+        <h3 class="text-center fw-light">Simple pricing for everyone</h3>
+            <p class="text-center text-secondary">Whether you're looking for a full-time workspace or are just visiting Melbourne, we've got an<br> option for everyone</p>
+            <p class="text-center fw-bold text-secondary">--------</p>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="card text-center" style="width: 22rem;">
+                        <div class="card-body">
+                          <h2 class="card-title fst-normal"><i class="fa-solid fa-dollar-sign fa-2xs"></i>19</h2>
+                          <h5 class="text-secondary">Daily</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est error quibusdam. Consequuntur, ab nemo!</p>
+                          <a href="#" class="btn btn-primary w-100">Join Us</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                  <div class="card text-center" style="width: 22rem;">
+                      <div class="card-body">
+                        <h2 class="card-title fst-normal"><i class="fa-solid fa-dollar-sign fa-2xs"></i>79</h2>
+                        <h5 class="text-secondary">Weekly</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est error quibusdam. Consequuntur, ab nemo!</p>
+                        <a href="#" class="btn btn-primary w-100">Join Us</a>
+                      </div>
+                    </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4">
+                <div class="card text-center" style="width: 22rem;">
+                    <div class="card-body">
+                      <h2 class="card-title fst-normal"><i class="fa-solid fa-dollar-sign fa-2xs"></i>99</h2>
+                      <h5 class="text-secondary">Monthly</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est error quibusdam. Consequuntur, ab nemo!</p>
+                      <a href="#" class="btn btn-primary w-100">Join Us</a>
+                    </div>
+                  </div>
+            </div>
+            </div>
+    </section>
+
+    <section class="container py-5" id="faq">
+      <div class="row">
+        <div class="col-lg-4 col-lg-4">
+          <h1 class="fw-light">Frequently Asked Question</h1>
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+          <h4 class="fw-light">Q. How do I apply?</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, vel.</p>
+          <h4 class="fw-light">Q. Where can I find out about funding?</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, vel.</p>
+          <h4 class="fw-light">Q. How can I make a change to my application?</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, vel.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+          <h4 class="fw-light">Q. What are entry requirements?</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, vel.</p>
+          <h4 class="fw-light">Q. How do I get a reference?</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, vel.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid my-5" id="contact">
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.7933944202587!2d91.81947877416009!3d22.361428740679145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd9633832aefd%3A0xead82ef6cc8e8133!2sFavicon%20Info%20System!5e0!3m2!1sen!2sbd!4v1701252926526!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-md-6 col-lg-6 p-5">
+          <h3 class="text-light w-50 mb-5">115W 18th St. New York, NY 10011</h3>
+          <a href="#" class="text-light">hello@cohub.com</a>
+          <br>
+          <a href="#" class="text-light">+613 4827 2294</a>
+          <p class="text-light mt-5">Give us a call or drop by anytime, we endeavor to answer all enquiries within 24 hours on business days.</p>
+          <p class="text-light">We are open from 7am - 7pm week days.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <h1 class="text-primary">coHub.</h1>
+          <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum porro temporibus nam expedita magnam sit quas ducimus deserunt nesciunt dolor.</p>
+          <p class="text-secondary fw-light">coHub HQ, 115 W 18th St.<br>New York, NY 10011</p>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+          <div class="d-flex justify-content-end align-item-end mt-5 pt-5">
+            <a href="#"><i class="fa-brands fa-facebook-f px-2"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter px-2"></i></a>
+            <a href="#"><i class="fa-brands fa-edge px-2"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram px-2"></i></a>
+          </div>
+
+          <div class="d-flex justify-content-end align-item-end ">
+            <p class="text-secondary">&copy 2023 Static Mania</p>
+            <a href="#" class="mx-3">Privacy Policy</a>
+            <a href="#">Terms</i></a>
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
